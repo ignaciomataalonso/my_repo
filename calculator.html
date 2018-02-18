@@ -3,8 +3,12 @@
 <script type="text/javascript">
 
 function cube(){
- var num = document.getElementById("n1");
- num.value = Math.pow(num.value, 3);
+ var num1 = document.getElementById("n1");
+ num1.value = Math.pow(num1.value, 3);
+}
+function alacuarta(){
+ var num2 = document.getElementById("n2");
+ num2.value = Math.pow(num2.value, 4);
 }
 </script>
 </head>
@@ -14,5 +18,9 @@ function cube(){
  <input type="text" id="n1">
 
  <button onclick="cube()"> x^3 </button>
+
+ <input type="text" id="n2">
+
+ <button onclick="alacuarta()"> x^4 </button>
 </body>
 </html>
